@@ -2,6 +2,9 @@
 
 Welcome to my professional portfolio where I showcase my expertise in setting up robust and secure IT infrastructures. Today, I'll walk you through the process of installing and configuring a LAMP (Linux, Apache, MySQL, PHP) stack. This stack is essential for hosting dynamic web applications and websites, providing a solid foundation for your online presence.
 
+![lamp](https://github.com/rasheedjimoh/lamp/assets/157264080/a02c50a3-cf4b-4bf7-8b5c-2094240fb7d1)
+
+
 LAMP Stack Installation and Configuration:
 
 1. **Assign IP and Install Linux (Ubuntu):**
@@ -48,6 +51,10 @@ LAMP Stack Installation and Configuration:
    sudo mysql -u root -p
    sudo apache2 -V
    ```
+![lamp-1](https://github.com/rasheedjimoh/lamp/assets/157264080/5e04db52-e621-4875-83c6-a3643907f220)
+---
+![lamp-2](https://github.com/rasheedjimoh/lamp/assets/157264080/d7303403-fab3-4deb-ae65-979fdeca8853)
+
 
 8. **Check Apache Status and Test PHP:**
    - Ensure Apache is running and test PHP functionality.
@@ -55,8 +62,16 @@ LAMP Stack Installation and Configuration:
    systemctl status apache2
    echo "<?php phpinfo();?>" | sudo tee /var/www/html/info.php
    ```
+![lamp-3](https://github.com/rasheedjimoh/lamp/assets/157264080/8a1aae09-5a38-4bf7-9f13-d2e66d6192b1)
+
+---
+
+![lamp-4](https://github.com/rasheedjimoh/lamp/assets/157264080/7723d022-ca1d-4a60-ba71-ec735062ae66)
 
 By completing these steps, you've established a LAMP stack, providing a powerful platform for hosting web applications and websites.
+
+![lamp-5](https://github.com/rasheedjimoh/lamp/assets/157264080/d2be45d3-755b-4a12-acc8-0647c0d43570)
+
 
 Benefits and Connection:
 
